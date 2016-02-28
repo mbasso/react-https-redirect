@@ -43,4 +43,4 @@ class App extends React.Component {
 ## Copyright and License
 Copyright (c) 2016, Matteo Basso.
 
-DynamicScript source code is licensed under the [MIT License](https://github.com/mbasso/DynamicScript/blob/master/LICENSE.md).
+DynamicScript source code is licensed under the [MIT License](https://github.com/mbasso/react-https-redirect/blob/master/LICENSE.md).
