@@ -20,7 +20,7 @@ npm install --save react-https-redirect
 Supposing a CommonJS environment, you can simply use the component in this way:
 
 ```javascript
-import HttsRedirect from 'react-https-redirect';
+import HttpsRedirect from 'react-https-redirect';
 
 class App extends React.Component {
 
