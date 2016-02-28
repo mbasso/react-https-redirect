@@ -1,5 +1,8 @@
 # React-https-redirect
 
+[![npm](https://img.shields.io/npm/v/react-https-redirect.svg)](https://www.npmjs.com/package/react-https-redirect)
+[![npm](https://img.shields.io/npm/l/react-https-redirect.svg)](https://github.com/mbasso/react-https-redirect/blob/master/LICENSE.md)
+
 This is a React component equivalent of Polymer [platinum-https-redirect](https://elements.polymer-project.org/elements/platinum-https-redirect)
 
 > The element redirects the current page to HTTPS, unless the page is loaded from a web server running on localhost.
@@ -43,4 +46,4 @@ class App extends React.Component {
 ## Copyright and License
 Copyright (c) 2016, Matteo Basso.
 
-DynamicScript source code is licensed under the [MIT License](https://github.com/mbasso/react-https-redirect/blob/master/LICENSE.md).
+React-https-redirect source code is licensed under the [MIT License](https://github.com/mbasso/react-https-redirect/blob/master/LICENSE.md).
