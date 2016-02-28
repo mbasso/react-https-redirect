@@ -6,7 +6,6 @@
   "scripts": {
     "compile": "babel --presets es2015,stage-0,react -d lib/ src/",
     "lint": "eslint src",
-    "test": "test",
     "prepublish": "npm run compile"
   },
   "repository": {
