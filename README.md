@@ -28,7 +28,7 @@ class App extends React.Component {
     return (
       <Providers>
         <HttpsRedirect>
-          <Childrens />
+          <Children />
         </HttpsRedirect>
       <Providers />
     );
