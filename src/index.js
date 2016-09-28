@@ -22,7 +22,7 @@ class HttpsRedirect extends React.Component {
 }
 
 HttpsRedirect.propTypes = {
-  children: React.PropTypes.array,
+  children: React.PropTypes.node,
 };
 
 export default HttpsRedirect;
