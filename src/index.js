@@ -9,10 +9,13 @@ class HttpsRedirect extends React.Component {
   }
 
   render() {
-    if (typeof window !== "undefined") {
-      if (window.location.protocol === 'http:' && !this.isLocalHost(window.location.hostname)) {
-        window.location.protocol = 'https:';
-      }
+    if (
+      typeof window !== 'undefined' &&
+      window.location &&
+      window.location.protocol === 'http:' &&
+      !this.isLocalHost(window.location.hostname)
+    ) {
+      window.location.protocol = 'https:';
     }
 
     return (
