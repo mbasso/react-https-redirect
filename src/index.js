@@ -15,7 +15,7 @@ class HttpsRedirect extends React.Component {
       window.location.protocol === 'http:' &&
       !this.isLocalHost(window.location.hostname)
     ) {
-      window.location.protocol = 'https:';
+      window.location.href = window.location.href.replace("http", "https")
     }
 
     return (
