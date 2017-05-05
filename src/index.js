@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 class HttpsRedirect extends React.Component {
 
@@ -27,7 +28,7 @@ class HttpsRedirect extends React.Component {
 }
 
 HttpsRedirect.propTypes = {
-  children: React.PropTypes.node,
+  children: PropTypes.node,
 };
 
 export default HttpsRedirect;
