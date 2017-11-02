@@ -6,6 +6,8 @@
 This is a React component equivalent of Polymer [platinum-https-redirect](https://elements.polymer-project.org/elements/platinum-https-redirect)
 
 > The element redirects the current page to HTTPS, unless the page is loaded from a web server running on localhost.
+> Using HTTP Strict Transport Security (HSTS) can be used to enforce HTTPS for an entire origin, following the first visit to any page on the origin. Configuring the underlying web server to redirect all HTTP requests to their HTTPS equivalents takes care of enforcing HTTPS on the initial visit as well. Both options provide a more robust approach to enforcing HTTPS, but require access to the underlying web server's configuration in order to implement.
+> This element provides a client-side option when HSTS and server-enforced redirects aren't possible, such as when deploying code on a shared-hosting provider like GitHub Pages.
 
 You can read more information [here](https://elements.polymer-project.org/elements/platinum-https-redirect).
 
