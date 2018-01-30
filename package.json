@@ -1,6 +1,6 @@
 {
   "name": "react-https-redirect",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Force a redirect to HTTPS when not on a local web server.",
   "main": "lib/index.js",
   "scripts": {
@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/mbasso/react-https-redirect#readme",
   "peerDependencies": {
-    "react": "^0.14.0 || ^15.0.0"
+    "react": "^16.0.0"
   },
   "devDependencies": {
     "babel-cli": "6.5.1",
