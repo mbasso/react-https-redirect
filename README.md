@@ -24,19 +24,20 @@ Supposing a CommonJS environment, you can simply use the component in this way:
 ```javascript
 import HttpsRedirect from 'react-https-redirect';
 
-class App extends React.Component {
+// you can just wrap your entire app to redirect it to the equivalent https version
+// for example:
+// http://example.com/    =>    https://example.com/
+
+class HttpsApp extends React.Component {
 
   render() {
     return (
-      <Providers>
-        <HttpsRedirect>
-          <Children />
-        </HttpsRedirect>
-      <Providers />
+      <HttpsRedirect>
+        <App />
+      <HttpsRedirect/>
     );
   }
 }
-
 ```
 
 
