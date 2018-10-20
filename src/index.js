@@ -17,6 +17,7 @@ const HttpsRedirect = ({ children }) => {
       /^http(?!s)/,
       'https'
     );
+    return null;
   }
 
   return children;
