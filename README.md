@@ -3,6 +3,13 @@
 [![npm](https://img.shields.io/npm/v/react-https-redirect.svg)](https://www.npmjs.com/package/react-https-redirect)
 [![npm](https://img.shields.io/npm/l/react-https-redirect.svg)](https://github.com/mbasso/react-https-redirect/blob/master/LICENSE.md)
 
+---
+
+**⚠️ Security note ⚠️ - This element provides a client-side option when HSTS and server-enforced redirects aren't possible. Please don’t use this if you can configure the server.**
+---
+
+---
+
 This is a React component equivalent of Polymer [platinum-https-redirect](https://elements.polymer-project.org/elements/platinum-https-redirect)
 
 > The element redirects the current page to HTTPS, unless the page is loaded from a web server running on localhost.
