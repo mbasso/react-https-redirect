@@ -44,7 +44,7 @@ class HttpsApp extends React.Component {
     return (
       <HttpsRedirect>
         <App />
-      <HttpsRedirect/>
+      </HttpsRedirect>
     );
   }
 }
