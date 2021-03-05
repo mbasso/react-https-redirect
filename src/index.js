@@ -17,7 +17,9 @@ const HttpsRedirect = ({ disabled, children }) => {
     window.location.href = window.location.href.replace(
       /^http(?!s)/,
       'https'
-    );
+    ).replace(
+        'www.',
+        '';
     return null;
   }
 
